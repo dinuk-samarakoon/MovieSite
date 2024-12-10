@@ -1,0 +1,136 @@
+.counts{
+    margin-top: 150px !important;
+}    
+
+.section {
+        padding: 60px 0;
+        overflow: hidden;
+    }
+    
+    .section-title {
+        padding-bottom: 40px;
+    }
+    
+     .section-title h2 {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000 !important;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .section-title h2::after {
+        content: "";
+        width: 120px;
+        height: 1px;
+        display: inline-block;
+        background: #ffb114;
+        margin: 4px 10px;
+    }
+    
+    .section-title p {
+        margin: 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #000000;
+    }
+    /* ----------------------------------------------------------------- */
+    /* ----------------------------------------------------------------- */
+    /* experinece section css */
+    
+    .counts {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .counts .content {
+        padding: 30px 0;
+    }
+    
+    .counts .content h3 {
+        font-weight: 700;
+        font-size: 34px;
+        color: #000000;
+    }
+    
+    .counts .content p {
+        margin-bottom: 0;
+    }
+    
+    .counts .review {
+        padding: auto;
+    }
+    
+    @media (max-width: 991px) {
+        .counts .image {
+            text-align: center;
+        }
+        .counts .image img {
+            max-width: 80%;
+        }
+    }
+    
+    @media (max-width: 667px) {
+        .counts .image img {
+            max-width: 100%;
+        }
+    }
+    
+    .star-rating {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0;
+    }
+    
+    .star-rating ul {
+        padding-left: 15px;
+    }
+    
+    .star-rating li {
+        padding: 0;
+    }
+    
+    .star-rating i {
+        font-size: 14px;
+        color: #ffc000;
+    }
+    
+    .counts .review .revbtn {
+        padding: 15px 0px;
+        margin-top: 10px;
+    }
+    
+    .counts .review .btn {
+        color: #130041;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: none;
+        border: 1px solid #130041;
+        padding: 6px 14px;
+        margin-top: 5px;
+        line-height: 16px;
+        border-radius: 20px;
+        width: 70px;
+    }
+    
+    .counts .review .btn:hover,
+    .counts .review .btn:focus {
+        color: #fff;
+        background: #00a7c4;
+        box-shadow: none;
+    }
+    
+    .counts .review .btn i {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    /* ----------------------------------------------------------------- */
